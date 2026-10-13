@@ -1,10 +1,15 @@
 # dani-home-pc-sounds
 
-Claude Code plugin that plays a sound when Claude stops writing:
+Claude Code plugin that plays sounds for session events:
 
-- `sounds/done.wav` when a turn finishes.
-- `sounds/needs-input.wav` when Claude needs you: a permission prompt, a
-  question dialog, or a final message whose last paragraph asks a question.
+| Sound | Plays when |
+|---|---|
+| `done.wav` | a turn finishes |
+| `needs-input.wav` | Claude needs you: a permission prompt, a question dialog, or a final message whose last paragraph asks a question |
+| `idle.wav` | Claude has been waiting for your input for a while |
+| `compact.wav` | the conversation is about to be compacted |
+| `stop-failure.wav` | a turn ends in an API error instead of finishing |
+| `session-end.wav` | the session ends |
 
 ## Install
 

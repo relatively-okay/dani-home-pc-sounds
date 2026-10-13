@@ -1,5 +1,5 @@
 {
   "name": "dani-home-pc-sounds",
-  "description": "Plays a sound when Claude Code finishes a turn, and a different one when it needs your input",
-  "version": "1.0.0"
+  "description": "Plays sounds for Claude Code events: turn finished, input needed, idle, compaction, failure, session end",
+  "version": "1.1.0"
 }
