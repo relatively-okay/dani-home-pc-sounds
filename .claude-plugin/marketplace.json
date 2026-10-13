@@ -1,0 +1,13 @@
+{
+  "name": "dani-home-pc-sounds",
+  "owner": {
+    "name": "relatively-okay"
+  },
+  "plugins": [
+    {
+      "name": "dani-home-pc-sounds",
+      "source": "./",
+      "description": "Plays a sound when Claude Code finishes a turn, and a different one when it needs your input"
+    }
+  ]
+}
